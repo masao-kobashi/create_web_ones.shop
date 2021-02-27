@@ -1,0 +1,202 @@
+/*for tab*/
+@media(max-width:1000px) {
+    .head-pict {
+        max-width:427px;
+    }
+
+    .name {
+        font-size:60px;
+    }
+
+    .message p {
+        font-size:15px;
+    }
+
+    .image img {
+        width:240px;
+    }
+
+    .image {
+        display:block;
+        margin:10px auto;
+        margin-bottom:50px;
+        width:400px;
+        position:relative;
+    }
+
+    .sankajo {
+        position:absolute;
+        top:170px;
+        left:40px;
+        font-size: 25px;
+        padding:0;
+        height:40px;
+        width:13em;
+        color:white;
+        font-weight: bold;
+        font-family:cursive;
+        margin-bottom:0;
+        border:4px solid rgb(200,130,0);
+        border-radius: 240px 140px 185px 90px / 60px 200px 70px 185px;
+        background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxqfCPb0xwV_ewuWXYzYVxKhPRzSXf6MDwRg&usqp=CAU);
+    }
+
+    p .under-mes {
+        font-size:0.8em;
+    }
+
+    h2 {
+        font-size:17px;
+    }
+
+    h3 {
+        font-size:13px;
+    }
+
+    .r-menu {
+        font-size:12px;
+    }
+
+    .ryoukin {
+        width:400px;
+    }
+
+    .rmenu{
+        position:relative;
+    }
+
+    .harigami img {
+        position:absolute;
+        bottom:0;
+        right:0px;
+        width:6px;
+    }
+
+    .access {
+        width:500px;
+    }
+
+    .access img {
+        width:400px;
+    }
+
+    .access p {
+        font-size:12px;
+    }
+
+    .call img {
+        width:360px;
+    }
+
+    .call {
+        width:360px;
+        position:relative;
+    }
+    .number {
+        position:absolute;
+        left:0;
+        font-size:17px;
+        width:360px;
+    }
+
+    .hukidasi img {
+        width:280px;
+    }
+
+    .hukidasi {
+        position:relative;
+    }
+
+    .messe {
+        position:absolute;
+        top:7px;
+        font-size:13px;
+    }
+
+    .wan {
+        width:280;
+        position:relative;
+    }
+
+    .pekori img {
+        position:absolute;
+        bottom:30px;
+        width:130px;
+        height:150px;
+    }
+
+    .format {
+        width:400px;
+    }
+
+    .format p {
+        font-size:12px;
+    }
+
+    .format input {
+        width:140px;
+        height:1.2em;
+        text-size-adjust:inherit;
+    }
+
+    .format textarea {
+        width:160px;
+        height:4em;
+    }
+
+    button {
+        width:40px;
+        font-size:10px;
+    }
+
+    .autolo p {
+        font-size:15px;
+    }
+
+    .shopname {
+        font-size:30px;
+    }
+    
+    .phon-num {
+        font-size:20px;
+    }
+    
+    .holiday {
+        font-size:18px;
+    } 
+}
+
+@media(min-width:750px) {
+    .add-s {
+        display:none;
+    }
+}
+
+@media(max-width:600px) {
+    .access {
+        width:380px;
+        text-align:center;
+    }
+
+    .add {
+        width:290px;
+        margin:0 auto;
+    }
+    
+    .access img {
+        width:340px;
+    }
+
+    .wan {
+        width:280;
+        position:relative;
+    }
+
+    .pekori img {
+        position:absolute;
+        bottom:50px;
+        left:340px;
+        width:100px;
+        height:120px;
+    }
+}
